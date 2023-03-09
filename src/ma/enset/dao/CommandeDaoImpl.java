@@ -76,7 +76,7 @@ public class CommandeDaoImpl implements CommandeDao {
     }
 
     @Override
-    public List<Commande> searachByMc(String MC) {
+    public List<Commande> searchByMc(String MC) {
         Connection connection = SingletonConnexionDb.getConnection();
         List<Commande> commandes = new ArrayList<>();
         try {

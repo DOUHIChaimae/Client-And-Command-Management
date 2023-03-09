@@ -73,6 +73,7 @@ public class ClientControlleur implements Initializable {
         catalogueService.addClient(client);
         loadClients();
     }
+
     public void deleteClient() throws SQLException {
         Client client = tableClient.getSelectionModel().getSelectedItem();
         catalogueService.deleteClient(client);

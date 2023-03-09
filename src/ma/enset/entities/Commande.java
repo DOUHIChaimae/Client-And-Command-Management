@@ -23,7 +23,6 @@ public class Commande implements Serializable {
     }
 
 
-
     public Client getClient() {
         return client;
     }

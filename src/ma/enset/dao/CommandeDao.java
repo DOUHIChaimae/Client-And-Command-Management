@@ -5,5 +5,5 @@ import ma.enset.entities.Commande;
 import java.util.List;
 
 public interface CommandeDao extends Dao<Commande> {
-    List<Commande> searachByMc(String MC);
+    List<Commande> searchByMc(String MC);
 }

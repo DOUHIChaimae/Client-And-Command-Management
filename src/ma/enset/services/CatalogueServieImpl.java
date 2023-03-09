@@ -46,6 +46,7 @@ public class CatalogueServieImpl implements CatalogueService {
     public void addCommande(Commande commande) throws SQLException {
         commandeDao.save(commande);
     }
+
     @Override
     public void deleteCommande(Commande commande) throws SQLException {
         commandeDao.delete(commande);
@@ -53,6 +54,6 @@ public class CatalogueServieImpl implements CatalogueService {
 
     @Override
     public List<Commande> chercherParMc(String MC) {
-        return commandeDao.searachByMc(MC);
+        return commandeDao.searchByMc(MC);
     }
 }

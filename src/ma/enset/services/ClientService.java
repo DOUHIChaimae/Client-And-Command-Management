@@ -7,7 +7,10 @@ import java.util.List;
 
 public interface ClientService {
     void addClient(Client client) throws SQLException;
+
     void deleteClient(Client client) throws SQLException;
+
     Client getClients();
+
     List<Client> getAllClients() throws SQLException;
 }
