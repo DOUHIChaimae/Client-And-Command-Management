@@ -1,0 +1,12 @@
+.button{
+    -fx-background-color: rgb(226,252,251);
+}
+.label{
+    -fx-font-size: 12px;
+}
+.combo-box{
+    -fx-background-color:#e8dff5;
+}
+.tab-pane{
+    -fx-background-color:rgb(256,226,255);
+}
