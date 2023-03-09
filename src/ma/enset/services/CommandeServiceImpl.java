@@ -10,7 +10,7 @@ public class CommandeServiceImpl implements CommandeService {
     private CommandeDao commandeDao;
 
 
-    public CgommandeServiceImpl(CommandeDao commandeDao) {
+    public CommandeServiceImpl(CommandeDao commandeDao) {
         this.commandeDao = commandeDao;
     }
 
