@@ -1,11 +1,5 @@
 package ma.enset.presentation.controllers;
 
-import JavaFx.dao.ClientDaoImpl;
-import JavaFx.dao.CommandeDaoImpl;
-import JavaFx.entities.Client;
-import JavaFx.entities.Commande;
-import JavaFx.services.CatalogueService;
-import JavaFx.services.CatalogueServieImpl;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -14,6 +8,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import ma.enset.dao.ClientDaoImpl;
+import ma.enset.dao.CommandeDaoImpl;
+import ma.enset.entities.Client;
+import ma.enset.entities.Commande;
+import ma.enset.services.CatalogueService;
+import ma.enset.services.CatalogueServieImpl;
 
 import java.net.URL;
 import java.sql.SQLException;

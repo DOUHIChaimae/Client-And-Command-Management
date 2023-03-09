@@ -1,7 +1,7 @@
 package ma.enset.services;
 
-import JavaFx.dao.CommandeDao;
-import JavaFx.entities.Commande;
+import ma.enset.dao.CommandeDao;
+import ma.enset.entities.Commande;
 
 import java.sql.SQLException;
 import java.util.List;

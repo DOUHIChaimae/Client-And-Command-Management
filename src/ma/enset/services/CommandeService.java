@@ -1,6 +1,6 @@
 package ma.enset.services;
 
-import JavaFx.entities.Commande;
+import ma.enset.entities.Commande;
 
 import java.sql.SQLException;
 import java.util.List;
